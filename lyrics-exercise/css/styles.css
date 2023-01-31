@@ -1,0 +1,27 @@
+.left{
+    display:block
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h1 {
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+section{
+    padding-bottom: 50px;
+    text-align:center ;
+}
+body {
+    background-image: url("paper.gif");
+    background-color: lightgrey;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: large;
+  }
