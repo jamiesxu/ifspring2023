@@ -1,0 +1,54 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+body {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: large;
+  }
+
+  #override{
+    color:black;
+    display:inline;
+    float:left;
+  }
+
+#peter{
+    color:crimson;
+    padding-bottom:1em;
+
+   
+}
+
+#dana{
+    font-weight:initial;
+    color: green;
+    padding-bottom:1em
+}
+
+#ray{
+    color:blueviolet;
+    padding-bottom:1em;
+}
+
+#egon{
+    color:chocolate;
+    padding-bottom:1em;
+}
+
+#winston{
+    color:fuchsia;
+    padding-bottom:1em;
+}
+#mayor{
+    color:cornflowerblue;
+    padding-bottom:1em;
+}
+
+#instructions{
+    font-style: oblique;
+    padding-bottom:1em;
+}
