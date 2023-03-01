@@ -47,3 +47,8 @@ ul.grid.using-grid{
 .using-grid li{
     width: 100%;
 }
+
+.using-grid li img{
+    width:30px;
+    max-height:100px;
+}
