@@ -1,0 +1,73 @@
+html{
+    font-family: 'American Typewriter';
+    background-color:#ececec;
+    padding-left:50px;
+    padding-top:50px;
+}
+
+table{
+  border-spacing:1em;  
+}
+
+td {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+  }
+
+header{
+    color: #F04E1F;
+    font-size:100px;
+    padding-bottom:50px;
+}
+.button_container{
+font-weight: 400;
+font-size: 56px;
+line-height: 65px;
+/* identical to box height */
+color: #000000;
+padding-bottom:25px;
+}
+
+a{
+    text-decoration:none;
+    color:#000000;
+}
+a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  /* Chanage cursor on hover */
+
+
+.season:hover{
+text-decoration: underline;
+}
+
+
+h3{
+    font-weight:normal;
+}
+
+.characterdescription{
+ float:right; 
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 50% 40%;
+    height:560px;
+
+}
+
+h1{
+   margin-block-start:0;
+}
+
+iframe{
+    align-content:center;
+}
