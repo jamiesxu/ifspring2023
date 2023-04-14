@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5808148a29.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script>
+ $( document ).ready(function() {			/* Here we're using JQuery to check that the DOM (the document) is ready */
+			    
+$(".dwightgiffy").hover(function(){		
+  $(".contents").fadeOut("fast", function(){
+                $(".dwightgif").fadeIn("fast");	
+            });
+  console.log("Showed gif");	
+});
+
+        $(".tab2").hover(function(){		
+  $(".jimgiffy").fadeOut("fast", function(){
+                $(".jimgif").fadeIn("fast");	
+            });
+  console.log("Showed gif");	
+});
+
+
+});
+</script>
+
+<div class="onelinewhenshrink">
+  <title>The Office </title>
+</div>
+
+  <meta charset="UTF-8">
+</head>
+
+<body> 
+    <div class="pleasecenter">
+            <a class="homepagetitle" href="/Users/jamiexu/Desktop/ifspring2023/Published/microsite/fully-realized/homepage2.html" target="_self" id="character_bio_button"> The Office </a>
+        </div>
+
+<div class="content-container">
+    <div class="dwightgiffy">
+    <img id="dwightgif" src="../fully-realized/The office assets/dwight.gif"width=100px >
+    </div>
+    <div class="jimgiffy"></div>
+    <img id="jimgif" src="../fully-realized/The office assets/jim.gif"width=100px >
+    <div class="kevingiffy"></div>
+    <img id="kevingif" src="../fully-realized/The office assets/kevin.gif"width=100px >
+</div>
+
+</body>
