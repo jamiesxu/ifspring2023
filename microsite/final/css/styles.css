@@ -1,0 +1,288 @@
+body{
+  margin-left: auto; margin-right: auto;
+  width: 90%;
+  max-width: 60rem;
+}
+
+html { font-size: 12pt; }
+
+
+
+/* html{
+  @media (mid-width:640px){
+    .onelinewhenshrink
+  }
+} */
+
+html{
+    font-family: 'American Typewriter';
+    background-color:#ececec;
+    padding-left:50px;
+    padding-top:50px;
+}
+
+.pleasecenter{
+padding-top:200px;
+text-align:center;display:block;
+}
+
+table{
+  border-spacing:1em;  
+}
+
+td {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+  }
+
+#back_to_home{
+    color: #F04E1F;
+    font-size:100px;
+    /* padding-bottom:80px; */
+}
+.button_container{
+font-weight: 400;
+font-size: 56px;
+line-height: 65px;
+/* identical to box height */
+color: #000000;
+padding-bottom:25px;
+}
+
+a{
+    text-decoration:none;
+    color:#000000;
+}
+/* a:hover {
+    text-decoration: underline;
+  } */
+
+  /* a:active {
+    text-decoration: underline;
+  } */
+
+  /* Chanage cursor on hover */
+
+
+.season:hover{
+text-decoration: underline;
+}
+
+
+h3{
+    font-weight:normal;
+}
+
+.characterdescription{
+ float:right; 
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 50% 40%;
+    height:560px;
+
+}
+
+h1{
+   margin-block-start:0;
+}
+
+iframe{
+    align-content:center;
+}
+
+.backtohomebutton{
+  color:#F04E1F;
+}
+
+.homepagetitle{
+  font-size:200px;
+  color:#F04E1F;
+  font-weight:regular;
+  text-align:center;
+}
+
+.homepagetitle:hover{
+  text-decoration: underline;
+}
+
+.listofcharacters{
+  font-size:25px;
+  text-align:center;
+  padding-bottom:15px;
+}
+
+.contentcontainercharacters{
+  padding-top:25s0px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#dwightgif{
+  float:right;
+  /* position:fixed; */
+  /* right:320px; */
+ 
+}
+
+#jimgif{
+  float:left;
+  /* position:fixed;
+  top:100px; */
+}
+
+#kevingif{
+  float:initial;
+  /* position:fixed; */
+  left:40px;
+}
+
+.options{
+  padding-top:50px;
+}
+
+
+
+.contents{
+  display:none;
+}
+
+.backbutton{
+  color: #F04E1F;
+  bottom: 10px;
+  width: 3%;
+  position:relative;
+  /* padding-top:150px; */
+  float:left;
+  padding-top:100px;
+}
+
+/* Use css to set to cursor pointer for seasons  to look clickable */
+
+.seasonstohover{
+cursor:pointer;
+}
+
+.homepage2links:hover{
+text-decoration:underline;
+}
+
+/* mobile responsive */
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+/* The homepage title being how I want it */
+
+@media only screen and (max-width:1440px){
+  .homepagetitle {
+    font-size:6em;
+  }
+}
+
+/* making the size of the gif shrink */
+
+img{
+  width:90%;
+}
+.gif{
+  width:10%;
+}
+
+
+
+@media screen and (max-width:640px) {
+  .gif {width:20%;}
+  }
+
+  @media screen and (max-width:320px) {
+    .gif {width:5%;}
+    }
+  
+  @media screen and (max-width:640) {
+    .homepagebutton {font-size:50px;}
+  }
+
+/* making text smaller */
+@media only screen and (max-width: 640px) {
+  body {
+    font-size:12px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:640px) {
+html{ font-size:16pt;}
+}
+
+.contentcontainercharacters{
+  padding-top:100px;
+}
+@media screen and (max-width:640) {
+  .backbutton {font-size:10px}
+}
+.nextbio{
+  color: #F04E1F;
+  bottom: 10px;
+  width: 3%;
+  position:relative;
+  /* padding-top:150px; */
+  float:right;
+  padding: 15px 30px;
+}
+
+.backbutton:hover{
+  color: #a72b08;
+}
+.nextbio:hover{
+  color: #a72b08;
+}
+
+.season1:hover{
+text-decoration:underline;
+}
+/* .season1:active{
+text-decoration:underline;
+}
+  */
+.season2:hover{
+  text-decoration:underline;
+}
+.season3:hover{
+  text-decoration:underline;
+}
+.season4:hover{
+  text-decoration:underline;
+}
+.season5:hover{
+  text-decoration:underline;
+}
+.season6:hover{
+  text-decoration:underline;
+}
+.season7:hover{
+  text-decoration:underline;
+}
+.season8:hover{
+  text-decoration:underline;
+}
+.season9:hover{
+  text-decoration:underline;
+}
