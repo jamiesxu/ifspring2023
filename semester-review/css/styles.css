@@ -1,0 +1,69 @@
+h1{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+
+body{
+background-color: azure;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width:40%
+
+}
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
+  /* The homepage title being how I want it */
+  
+  @media only screen and (max-width:1440px){
+    .homepagetitle {
+      font-size:6em;
+    }
+  }
+  
+  /* making the size of the gif shrink */
+  
+  img{
+    width:90%;
+  }
+  .gif{
+    width:10%;
+  }
+  
+  
+  
+  @media screen and (max-width:640px) {
+    .gif {width:20%;}
+    }
+  
+    @media screen and (max-width:320px) {
+      .gif {width:5%;}
+      }
+    
+    @media screen and (max-width:640) {
+      .homepagebutton {font-size:50px;}
+    }
+  
+  /* making text smaller */
+  @media only screen and (max-width: 640px) {
+    body {
+      font-size:12px;
+    }
+  }
+  @media screen and (min-width:320px) and (max-width:640px) {
+  html{ font-size:16pt;}
+  }
+  
+  .contentcontainercharacters{
+    padding-top:100px;
+  }
+  @media screen and (max-width:640) {
+    .backbutton {font-size:10px}
+  }
